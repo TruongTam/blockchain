@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+
+    <h3>Success Page</h3>
+    Welcome @Context.Session.GetString("username")
+    <br>
+@foreach (var i in Model)
+{
+<p>Tên: @i.Username</p>
+<p>Số lần giao dịch: @i.Amount</p>
+<p>Tiền: @i.Money</p>
+}
+    <a asp-controller="account" asp-action="logout">Logout</a>

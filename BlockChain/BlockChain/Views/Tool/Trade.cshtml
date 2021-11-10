@@ -1,0 +1,30 @@
+﻿@if (string.IsNullOrEmpty(ViewBag.check)) {
+    <div> @Html.ActionLink("Đăng Nhập để giao dịch","Login","Home")</div> 
+    }
+<table>
+    @foreach (var i in Model.cus1)
+    {
+      <td>
+      <tr>Stt: @i.Id</tr>
+      <tr>Tên: @i.Username</tr>
+      <tr>Giao dịch : @i.Amount </tr>
+      <tr>Tiền: @i.Money</tr>
+    </td>
+    }
+</table>
+<form>
+    <input  type="number"/>
+</form>
+<table>
+    @foreach (var i in Model.cus2)
+    {
+        
+    <td>
+    <tr>Stt: @i.Id</tr>
+    <tr>Tên: @i.Username</tr>
+    <tr>Giao dịch : @i.Amount </tr>
+    <tr>Tiền: @i.Money</tr>
+    </td>
+        
+    }
+</table>
