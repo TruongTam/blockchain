@@ -32,7 +32,7 @@ namespace BlockChain.Controllers
             var cus2 = chainContext.Cus.Where(x => x.Id == id).ToList();
             return View(new Trade {cus1= cus1,cus2= cus2 });
         }
-        public IActionResult Insertresult( int? id,)
+        public IActionResult Insertresult( int? id, string name, int val, string hash)
         {
 
         }

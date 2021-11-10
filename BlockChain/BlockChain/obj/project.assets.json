@@ -8830,11 +8830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\BlockChain\\BlockChain\\BlockChain.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\blockchainproject\\BlockChain\\BlockChain\\BlockChain.csproj",
       "projectName": "BlockChain",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\BlockChain\\BlockChain\\BlockChain.csproj",
+      "projectPath": "C:\\Users\\PC\\source\\repos\\blockchainproject\\BlockChain\\BlockChain\\BlockChain.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\BlockChain\\BlockChain\\obj\\",
+      "outputPath": "C:\\Users\\PC\\source\\repos\\blockchainproject\\BlockChain\\BlockChain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
